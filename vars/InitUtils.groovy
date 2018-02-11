@@ -9,3 +9,5 @@ def call(body) {
     body.delegate = config
     body()
 }
+
+return this
