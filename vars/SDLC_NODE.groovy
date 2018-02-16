@@ -1,4 +1,4 @@
-def call(nodeName, body) {
+def call(String nodeName, body) {
 	node(nodeName) {
 		body()
 	}
