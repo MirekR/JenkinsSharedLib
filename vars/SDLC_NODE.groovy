@@ -1,4 +1,4 @@
-def call(nodeName, librariesPaths, body) {
+def call(nodeName, body) {
 	node(nodeName) {
 		body()
 	}
