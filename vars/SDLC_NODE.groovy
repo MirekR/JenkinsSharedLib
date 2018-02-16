@@ -1,5 +1,5 @@
-def call(String nodeName, body) {
-	node(nodeName) {
+def call(body) {
+	node('TestNode') {
 		body()
 	}
 }
